@@ -1,0 +1,162 @@
+TPL: Market Optimization Report Template
+
+Title:
+Parabolas for Profit – Market Optimization Report
+
+Student Names: _________________________________
+Class / Period: ___________     Date: ___________
+
+Business and Menu Item:
+- Local Business: ______________________________________
+- Specific Menu Item: _________________________________
+
+------------------------------------------------------------
+Section 1 – Business and Item Description
+------------------------------------------------------------
+1.1 Describe the business:
+- What kind of business is it (pizza, chicken, Cambodian cuisine, etc.)?
+- Who are its typical customers (students, families, workers, etc.)?
+
+1.2 Describe your chosen menu item:
+- What is it called?
+- Why do you think this item is important or interesting to optimize?
+
+------------------------------------------------------------
+Section 2 – Data Summary
+------------------------------------------------------------
+2.1 Data Source:
+- Where did your data come from? (teacher-provided synthetic data, survey, price-testing simulation, etc.)
+- How many data points did you use?
+
+2.2 Data Table (attach or summarize):
+- Include a table or description of:
+  - Price (in dollars)
+  - Quantity demanded (how many customers buy at that price)
+
+------------------------------------------------------------
+Section 3 – Revenue and/or Profit Model
+------------------------------------------------------------
+3.1 Define your variables clearly:
+- Let x = __________________________ (for example, price in dollars).
+- Let R(x) or P(x) = __________________________ (for example, daily revenue in dollars or profit in dollars).
+
+3.2 Show how you built your quadratic model:
+- Explain in words:
+  - “We used our price and quantity data to calculate revenue (price × quantity) for each row.”
+  - “We then used Desmos / a calculator’s regression feature to fit a quadratic model.”
+
+3.3 Write your final quadratic model (regression equation):
+- Our model is:
+  - R(x) or P(x) = ______________________________________
+    (Fill in actual coefficients, rounded to a reasonable number of decimal places.)
+
+3.4 Check: Does the graph match your data?
+- Briefly explain why your model seems reasonable (does the curve pass near your data points? does it open down for revenue/profit?).
+
+------------------------------------------------------------
+Section 4 – Vertex: Optimal Price and Maximum Revenue/Profit
+------------------------------------------------------------
+4.1 Find the vertex:
+- Identify a and b in your model y = ax^2 + bx + c:
+  - a = ___________    b = ___________    c = ___________
+
+- Use the vertex formula:
+  - \(x_v = -\frac{b}{2a} =\) ___________________
+
+- Find the y-value at the vertex:
+  - y_v = R(x_v) or P(x_v) = ___________________
+
+4.2 Interpret the vertex in context:
+- Write a complete sentence or paragraph explaining:
+  - “The vertex of our graph is approximately (x_v, y_v) = (________, ________).”
+  - “This means that if the business charges about $________ for this menu item, it will make about $________ in [revenue/profit] from this item (under our model).”
+
+4.3 Connect to decision-making:
+- Based on the vertex, what price would you recommend as the “optimal price” for this item?
+- Explain why a price lower than this and a price higher than this would both lead to lower revenue/profit.
+
+------------------------------------------------------------
+Section 5 – Roots/Zeros: Where Revenue/Profit Hits Zero
+------------------------------------------------------------
+5.1 Set your model equal to zero:
+- Write the equation you are solving:
+  - R(x) = 0 or P(x) = 0 → ___________________________________
+
+5.2 Use the quadratic formula:
+- Identify a, b, c again:
+  - a = ___________    b = ___________    c = ___________
+
+- Compute the discriminant:
+  - \(D = b^2 - 4ac =\) ___________________
+  - Is D > 0, D = 0, or D < 0?
+
+- Use the quadratic formula:
+  - \(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)
+  - Show your work and find both solutions (they may be decimals):
+    - x₁ = ___________________
+    - x₂ = ___________________
+
+5.3 Decide which solutions make sense:
+- For each solution, say whether it is:
+  - A realistic price for this business (within a reasonable range and positive).
+  - Unrealistic because it is negative.
+  - Unrealistic because it is far outside the normal price range for this item.
+  - Non-real (imaginary) because D < 0.
+
+- Clearly label:
+  - “Valid solution(s) in context: ___________________”
+  - “Invalid or non-real solution(s): ___________________”
+
+5.4 Explain the meaning (or non-meaning) of the roots:
+- If there is a valid root in your price range:
+  - Explain what it means (for example, “At about $____, our model predicts zero profit.”).
+
+- If there are no real roots (D < 0):
+  - Explain what that means in words (for example, “Our model suggests that profit never hits exactly zero in the realistic price range.”).
+
+- If one root is negative or far outside the realistic range:
+  - Explain why you reject it in the real-world context.
+
+------------------------------------------------------------
+Section 6 – Final Recommendation to the Business
+------------------------------------------------------------
+6.1 State your recommended price:
+- Based on your model, what price should the business charge for this item?
+  - Recommended price: $___________________
+
+6.2 Justify your recommendation:
+- Use all three ideas in your explanation:
+  - The vertex (optimal price / maximum revenue or profit).
+  - Any valid roots (where revenue/profit hits zero, if relevant).
+  - Realistic constraints (typical prices for this type of item, customer willingness to pay, etc.).
+
+6.3 Consider trade-offs:
+- Are there any reasons the business might choose a slightly higher or lower price than your mathematically optimal price (e.g., competition, marketing, psychological pricing like $9.99)?
+- Briefly discuss these trade-offs.
+
+------------------------------------------------------------
+Section 7 – Reflection on Quadratic Concepts
+------------------------------------------------------------
+7.1 Vertex:
+- In your own words, what is a vertex of a quadratic function?
+- How did the vertex help you make a real business decision in this project?
+
+7.2 Roots/Zeros:
+- In your own words, what are the roots (zeros) of a quadratic function?
+- In this project, what did the roots (if any) tell you about your pricing model?
+
+7.3 Quadratic Formula and “Nonsense” Solutions:
+- Describe a time in this project when:
+  - You used the quadratic formula to solve a problem.
+  - You got a solution that did not make sense (negative price, imaginary number, or price way outside the menu range).
+
+- Explain:
+  - Why that solution was mathematically correct but contextually invalid.
+  - What you decided to do with that solution in your final recommendation.
+
+7.4 Big Idea:
+- Write 2–3 sentences summarizing what you learned about how quadratics (especially vertex and roots) can be used to make real-world decisions about price and profit.
+
+End of Report Template
+
+

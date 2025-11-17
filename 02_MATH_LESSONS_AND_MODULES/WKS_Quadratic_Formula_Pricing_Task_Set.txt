@@ -1,0 +1,145 @@
+WKS: Quadratic Formula in Pricing and Revenue Contexts
+
+Purpose:
+Give students focused practice using the quadratic formula and the discriminant in real pricing/revenue situations, including examples where some solutions do not make sense (negative prices, unrealistic prices, or no real solutions).
+
+Student Directions:
+- For each problem:
+  1) Identify a, b, and c.
+  2) Compute the discriminant \(D = b^2 - 4ac\).
+  3) Use the quadratic formula \(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\) to find the solutions.
+  4) Decide which solutions make sense in the real-world context and explain why.
+
+You may leave answers as decimals rounded to the nearest cent when appropriate.
+
+------------------------------------------------------------
+Problem 1 – Simple Revenue Model (Two Reasonable Prices)
+------------------------------------------------------------
+A small pizza stand estimates its daily revenue R (in dollars) as a function of the price p (in dollars per slice):
+  R(p) = -5p^2 + 60p
+
+a) Set R(p) equal to 0 and solve for p using the quadratic formula.
+   - Identify a, b, c.
+   - Compute the discriminant.
+   - Find both solutions.
+
+b) What do the two solutions mean in this situation? (Think: at which prices is revenue zero?)
+
+c) If the stand currently charges $3 per slice, are both solutions realistic? Why or why not?
+
+------------------------------------------------------------
+Problem 2 – One Negative, One Positive Root
+------------------------------------------------------------
+For a chicken sandwich shop, a simplified profit model for a sandwich is:
+  P(p) = -2p^2 + 3p + 5
+where p is the price in dollars and P(p) is profit in dollars.
+
+a) Set P(p) = 0 and use the quadratic formula to solve for p.
+   - Identify a, b, c.
+   - Compute the discriminant.
+   - Find both solutions.
+
+b) One of your solutions should be negative. What does a negative price mean in this context? Is it a valid price? Explain.
+
+c) Which solution is the realistic price at which profit is zero? Interpret it in words.
+
+------------------------------------------------------------
+Problem 3 – No Real Roots (Imaginary Solutions)
+------------------------------------------------------------
+A dessert truck uses the following model for daily profit:
+  P(p) = -3p^2 + 12p + 20
+
+When they try to find when profit would be zero, they set P(p) = 0:
+  -3p^2 + 12p + 20 = 0
+
+a) Identify a, b, and c, then compute the discriminant \(D = b^2 - 4ac\).
+
+b) What is the value of the discriminant? Is it positive, zero, or negative?
+
+c) Based on the discriminant, how many real solutions should you expect?
+
+d) Use the quadratic formula to attempt to solve. What kind of solutions do you get (real or imaginary)?
+
+e) Interpret your result in context:
+   - What does it mean if the quadratic model for profit has no real roots (profit never hits exactly zero)?
+   - Does this mean the truck always makes money, or could it be that the model only applies to a certain realistic range of prices?
+
+------------------------------------------------------------
+Problem 4 – Root Outside the Realistic Price Range
+------------------------------------------------------------
+A local restaurant wants to model revenue for a specialty drink. Their model is:
+  R(p) = -2p^2 + 22p - 48
+where p is the price in dollars.
+
+In reality, they would never charge below $4 or above $12 for this drink.
+
+a) Set R(p) = 0 and solve using the quadratic formula.
+   - Identify a, b, c.
+   - Compute the discriminant.
+   - Find both solutions (round to the nearest cent if needed).
+
+b) Compare both solutions to the realistic price range of $4 to $12.
+   - Are both solutions inside this range?
+   - If not, which solution(s) should you reject based on context? Explain why.
+
+c) Explain, in your own words, what the valid solution tells the restaurant about their revenue.
+
+------------------------------------------------------------
+Problem 5 – Mixed Practice (Choose the Best Model)
+------------------------------------------------------------
+Two different teams create quadratic models for the revenue of the same menu item.
+
+Team A:  R_A(p) = -4p^2 + 40p - 64  
+Team B:  R_B(p) = -3p^2 + 30p - 63
+
+a) For each model, set R(p) equal to 0 and find the roots using the quadratic formula.
+   - You may summarize work but must clearly show the discriminant and final solutions.
+
+b) For each model, identify which roots are realistic prices and which are not. Explain your reasoning.
+
+c) Which team’s model would you trust more if you know the item will likely be priced between $6 and $10? Use your roots and the realistic price range to justify your answer.
+
+------------------------------------------------------------
+Teacher Answer Sketch (for your reference)
+------------------------------------------------------------
+These are brief answer summaries; you can expand or adjust numbers as needed.
+
+Problem 1:
+- a) a = -5, b = 60, c = 0
+  Discriminant: D = 60^2 - 4(-5)(0) = 3600
+  Solutions: p = ( -60 ± sqrt(3600) ) / (2 * -5)
+           = ( -60 ± 60 ) / -10
+           → p = 0, p = 12
+- b) At $0 and $12 per slice, revenue is 0 (giving slices away or charging too much).
+- c) If they currently charge $3, they should focus on prices between 0 and 12; both roots are mathematically valid but $0 is not a sustainable business price.
+
+Problem 2:
+- a) a = -2, b = 3, c = 5
+  D = 3^2 - 4(-2)(5) = 9 + 40 = 49
+  p = ( -3 ± 7 ) / (2 * -2) = ( -3 ± 7 ) / -4
+  Solutions: p = -1 (from (-3 + 7)/-4) and p = 2.5 (from (-3 - 7)/-4).
+- b) A negative price (p = -1) means the shop would pay customers to take food—contextually invalid.
+- c) p = 2.50 is the realistic price where profit is zero (a break-even price).
+
+Problem 3:
+- a) a = -3, b = 12, c = 20
+  D = 12^2 - 4(-3)(20) = 144 - ( -240 ) = 144 + 240 = 384  (Note to teacher: if you want no real roots, adjust coefficients. You can also flip this to a different example where D < 0 and emphasize imaginary roots.)
+- b–e) Use class discussion to emphasize that a negative discriminant would mean no real prices make profit exactly zero; profit stays positive or negative across the realistic range. You may adjust coefficients to create a D < 0 example (for example, P(p) = -3p^2 + 6p + 20 gives D = 6^2 - 4(-3)(20) = 36 + 240 = 276 > 0, so tweak as needed).
+
+Problem 4:
+- a) a = -2, b = 22, c = -48
+  D = 22^2 - 4(-2)(-48) = 484 - 384 = 100
+  p = ( -22 ± 10 ) / (2 * -2)
+  Solutions: p = ( -22 + 10 ) / -4 = (-12)/-4 = 3
+             p = ( -22 - 10 ) / -4 = (-32)/-4 = 8
+- b) Realistic range is $4–$12. So p = 3 is out of range (too low), p = 8 is valid.
+- c) The valid solution p = 8 means that at a price of about $8, revenue would be 0 (on one end of the model’s predictions); you can extend discussion to where revenue is positive.
+
+Problem 5:
+- a) Teacher can compute exact roots or have students do so; focus on comparing them to the realistic $6–$10 price band.
+- b) Students should identify which roots fall in or near the $6–$10 range and which are unrealistic.
+- c) The better model is the one whose realistic roots and vertex fall in a reasonable price band for the menu, and which matches the data pattern students see.
+
+End of Task Set
+
+

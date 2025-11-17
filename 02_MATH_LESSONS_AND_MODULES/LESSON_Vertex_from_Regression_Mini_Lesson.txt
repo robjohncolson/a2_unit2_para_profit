@@ -1,0 +1,130 @@
+LESSON: Vertex from Regression – Optimal Price for Maximum Revenue
+
+Purpose:
+This is a short, teacher-facing mini-lesson that takes students from a regression equation they already found (from the candy auction or local business data) to a deep understanding of the vertex as “best price / maximum revenue.”
+
+Learning Targets (student-facing):
+- I can identify the vertex of a quadratic function from a graph and from an equation in standard form.
+- I can explain what the vertex means in a pricing and revenue context (optimal price and maximum revenue).
+- I can use the formula \(x = -\frac{b}{2a}\) to find the x-coordinate of the vertex for a quadratic in standard form.
+
+Prerequisite:
+- Students have already run the candy auction and recorded price–revenue data, OR they have a similar price–revenue dataset for a menu item.
+- Students have used Desmos or a calculator to create a scatterplot and find a quadratic regression equation.
+
+Materials:
+- Student auction/revenue worksheet or local-business data table.
+- Desmos (phone, Chromebook, or projector) or graphing calculators.
+- Whiteboard / projector for whole-class modeling.
+
+Suggested Time:
+~25–35 minutes (can be compressed to 15–20 minutes if needed).
+
+------------------------------------------------------------
+Part A – Launch (5–7 minutes)
+------------------------------------------------------------
+1. Quick Recall (2–3 min):
+   - Ask: “In our auction, at what price did we seem to make the most money overall?”
+   - Show their scatterplot and regression curve on Desmos or doc camera.
+   - Have a few students point to the “top” of the curve.
+
+2. Connect to Vocabulary (3–4 min):
+   - Tell students: “That highest point on the curve has a special name in math. It’s called the vertex.”
+   - Write on the board:
+     - Vertex: highest or lowest point on a parabola (depending on whether it opens up or down).
+     - In our project, we care about the vertex of a revenue or profit curve that opens downward → this is the point of maximum revenue or profit.
+
+------------------------------------------------------------
+Part B – From Graph to Vertex (5–10 minutes)
+------------------------------------------------------------
+1. Use Their Regression Equation:
+   - Suppose their regression equation for revenue vs. price is something like:
+       R(p) = -4.5p^2 + 54p - 120
+     (You can use their actual regression instead; this is just a sample.)
+
+2. Graphical Vertex:
+   - Show the graph of R(p) in Desmos.
+   - Ask students to use the graphing tool to find the maximum point (vertex).
+   - Have students record:
+       - The x-value (price) of the vertex.
+       - The y-value (revenue) at that price.
+   - Ask: “What does this point (x, y) mean in our situation?”
+     - E.g., “If we charge about $6, we make about $42 in revenue.”
+
+3. Language Check:
+   - Have students complete a sentence frame in their notes:
+     - “The vertex of our revenue graph is approximately (__, __). This means that if we charge about $__ per item, we will make about $__ in revenue.”
+
+------------------------------------------------------------
+Part C – From Equation to Vertex (10–15 minutes)
+------------------------------------------------------------
+Goal: Move from “Desmos tells me the vertex” to “I can calculate the vertex from the equation.”
+
+1. Standard Form Reminder:
+   - Write the regression equation clearly in standard form:
+       R(p) = ap^2 + bp + c
+     For example:
+       R(p) = -4.5p^2 + 54p - 120
+       a = -4.5,  b = 54,  c = -120
+
+2. Introduce Vertex Formula:
+   - Write:
+       For a quadratic y = ax^2 + bx + c,
+       The x-coordinate of the vertex is \(x = -\frac{b}{2a}\).
+   - Emphasize: “This formula tells us which x-value gives the maximum or minimum y-value.”
+
+3. Guided Example Using Their Regression:
+   - Using the sample coefficients:
+       a = -4.5, b = 54
+       \(p_v = -\frac{b}{2a} = -\frac{54}{2 \cdot (-4.5)}\)
+       \(p_v = -\frac{54}{-9} = 6\)
+   - Then plug back in (or use Desmos) to find the revenue at p = 6:
+       R(6) = -4.5(6^2) + 54(6) - 120
+            = -4.5(36) + 324 - 120
+            = -162 + 324 - 120
+            = 42
+   - Confirm that the vertex (6, 42) matches what Desmos showed.
+
+4. Student Practice (In Pairs):
+   - If different groups have different regression equations for their auction or business items, have each pair:
+     - Identify a and b in their own equation.
+     - Use \(x = -\frac{b}{2a}\) to compute the vertex x-value.
+     - Calculate the y-value at that x.
+     - Check both using a graphing tool.
+   - Circulate and push students to say what the vertex means in context each time.
+
+------------------------------------------------------------
+Part D – Exit Ticket / Quick Check (5 minutes)
+------------------------------------------------------------
+Option 1 – Pure Math + Context:
+- Question 1 (pure math): For the quadratic function f(x) = -2x^2 + 8x + 3,
+  - a) Find the x-coordinate of the vertex using \(x = -\frac{b}{2a}\).
+  - b) Find the y-coordinate by plugging back in.
+
+- Question 2 (context): A food truck models its daily revenue with R(p) = -3p^2 + 18p,
+  where p is the price of a meal in dollars.
+  - a) Find the vertex of the parabola.
+  - b) Interpret what the vertex means in this situation.
+
+Option 2 – Project-Only Version:
+- Give students a short description: “Our regression equation for the Golden Monkey drink is R(p) = -2.8p^2 + 39.2p - 112.”
+  - Ask them to find the vertex and explain its meaning.
+
+------------------------------------------------------------
+Teacher Notes / Differentiation Ideas
+------------------------------------------------------------
+- For students who struggle:
+  - Provide a template table for plugging in a and b into \(x = -\frac{b}{2a}\).
+  - Let them use a calculator for the arithmetic so they can focus on concept.
+
+- For students who finish early:
+  - Ask them to compare two different quadratic models and decide which has a higher maximum revenue, or which gives the best price closer to a given menu price.
+
+- Common Misconceptions to Watch For:
+  - Mixing up a, b, and c when reading the equation.
+  - Thinking the vertex always represents “where the graph crosses the x-axis” (clarify that is a root, not the vertex).
+  - Forgetting that in this project context, the vertex’s x-coordinate is a price and the y-coordinate is revenue/profit.
+
+End of Mini-Lesson Outline
+
+
