@@ -1,0 +1,172 @@
+DE LA SUBASTA DE DULCES AL INGRESO MÁXIMO
+Encontrando el Punto Óptimo: Optimización de Precios a Través de Datos
+
+Nombre: _________________ Período: _____ Fecha: _________
+
+================================================================================
+PARTE 1: REVISANDO NUESTROS DATOS DE LA SUBASTA
+================================================================================
+
+Ayer, realizamos una subasta de dulces donde cada grupo podía comprar tantos
+dulces como quisiera a cada precio. Organicemos lo que descubrimos sobre la
+DEMANDA -- cuántos dulces querían comprar las personas a diferentes precios.
+
+Paso 1: Registra los Resultados de Tu Subasta
+----------------------------------------------
+Completa la tabla con los datos de nuestras 5 rondas de subasta:
+
+| Ronda | Precio ($) | Cantidad Total Demandada |
+|       |            | (dulces comprados por todos los grupos) |
+|-------|------------|--------------------------|
+| 1     |            |                          |
+| 2     |            |                          |
+| 3     |            |                          |
+| 4     |            |                          |
+| 5     |            |                          |
+
+Paso 2: Verificación Rápida de la Demanda
+------------------------------------------
+Pregunta: Observa tus datos de Precio vs. Cantidad Demandada. ¿Qué patrón notas?
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+¡Este patrón se llama la LEY DE LA DEMANDA en economía!
+
+================================================================================
+PARTE 2: DE LA DEMANDA AL INGRESO
+================================================================================
+
+Ahora viene la perspicacia empresarial: No se trata solo de cuánto vendemos --
+¡se trata de cuánto dinero ganamos!
+
+Paso 3: Calcula el Ingreso
+---------------------------
+Para cada ronda, calcula el INGRESO (dinero total recaudado):
+
+        *** Ingreso = Precio × Cantidad Demandada ***
+
+| Ronda | Precio ($) | Cantidad Demandada | Ingreso ($) |
+|       | (copiar)   | (copiar)          | (calcular: Precio × Cantidad) |
+|-------|------------|-------------------|-------------|
+| 1     |            |                   |             |
+| 2     |            |                   |             |
+| 3     |            |                   |             |
+| 4     |            |                   |             |
+| 5     |            |                   |             |
+
+Paso 4: La Pregunta del Millón
+-------------------------------
+Mirando tu columna de ingresos, ¿qué precio te dio el INGRESO MÁS ALTO?
+
+Precio: $______    Ingreso a ese precio: $______
+
+================================================================================
+PARTE 3: CREANDO LA GRÁFICA DE INGRESOS EN DESMOS
+================================================================================
+
+Paso 5: Grafica Precio vs. Ingreso
+-----------------------------------
+a) Abre la calculadora gráfica Desmos
+b) Crea una tabla nueva con dos columnas:
+   - Columna 1: Etiquétala x₁ (este es el Precio)
+   - Columna 2: Etiquétala y₁ (este es el Ingreso)
+c) Ingresa tus 5 puntos de datos de las columnas de Precio e Ingreso de arriba
+d) ¡Deberías ver puntos formando una curva!
+
+Dibuja lo que ves:
+[Dibuja una cuadrícula de coordenadas con Precio en el eje x e Ingreso en el eje y]
+
+================================================================================
+PARTE 4: ENCONTRANDO EL PRECIO PERFECTO CON REGRESIÓN
+================================================================================
+
+Paso 6: Ajusta una Cuadrática (Parábola) a Tus Datos
+------------------------------------------------------
+En Desmos, escribe esto en una línea nueva:
+
+        y₁ ~ ax₁² + bx₁ + c
+
+¡Desmos encontrará automáticamente la parábola que mejor se ajuste!
+Escribe la ecuación que te da:
+
+I(p) = _____ p² + _____ p + _____
+
+Registra los valores que Desmos calculó:
+• a = _______ (esto debe ser negativo porque nuestra parábola abre hacia abajo y tiene un máximo)
+• b = _______
+• c = _______
+
+================================================================================
+PARTE 5: EL VÉRTICE -- ¡TU PRECIO ÓPTIMO!
+================================================================================
+
+El punto más alto en tu parábola de ingresos se llama el VÉRTICE.
+¡Esto te dice el mejor precio para cobrar!
+
+Paso 7: Encuentra el Vértice Gráficamente
+------------------------------------------
+a) Haz clic en el punto más alto de tu parábola en Desmos
+b) Desmos te mostrará las coordenadas: (Precio, Ingreso)
+
+Vértice de la Gráfica:  Precio = $_____  Ingreso Máximo = $_____
+
+Paso 8: Encuentra el Vértice Usando Álgebra
+--------------------------------------------
+Para cualquier parábola y = ax² + bx + c, la coordenada x del vértice es:
+
+        x = -b/(2a)
+
+Usando tus valores de a y b del Paso 6:
+
+Precio Óptimo = -b/(2a)
+              = -(______) / (2 × (______))
+              = -(______) / (______)
+              = $_______
+
+Verifica: ¿Coincide esto con lo que encontraste gráficamente?  □ Sí  □ No
+
+================================================================================
+PARTE 6: DANDO SENTIDO EMPRESARIAL
+================================================================================
+
+Paso 9: Interpreta Tus Resultados
+----------------------------------
+Completa estas oraciones basándote en tu análisis:
+
+a) Si ponemos el precio del dulce muy bajo (como $_____), vendemos mucho pero
+   no ganamos mucho por dulce, así que nuestro ingreso total es _________________.
+
+b) Si ponemos el precio del dulce muy alto (como $_____), ganamos mucho por dulce
+   pero _________________, así que nuestro ingreso también es bajo.
+
+c) El precio "punto óptimo" que maximiza nuestro ingreso es $_____,
+   lo que nos daría un ingreso de $_____.
+
+Paso 10: Recomendación Empresarial
+-----------------------------------
+Escribe una recomendación de 2-3 oraciones para el dueño de una tienda de dulces
+basándote en tu análisis:
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+================================================================================
+PREGUNTA DE EXTENSIÓN (si hay tiempo)
+================================================================================
+
+Piénsalo: Encontramos el precio que maximiza el INGRESO, pero a las empresas les
+importa la GANANCIA. ¿Qué información adicional necesitaríamos para encontrar el
+precio que maximiza la ganancia en lugar del ingreso?
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+--------------------------------------------------------------------------------
+Próxima Clase: ¡Aplicaremos estas mismas técnicas para ayudar a negocios locales
+reales (Golden Monkey, Mandee's y Yas Chicken) a encontrar sus precios óptimos!

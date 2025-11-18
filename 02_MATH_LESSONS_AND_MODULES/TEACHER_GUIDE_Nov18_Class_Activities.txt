@@ -1,0 +1,190 @@
+TEACHER ACTIVITY GUIDE
+Candy Auction to Revenue Analysis
+Period A & Period F
+November 18, 2024
+
+================================================================================
+QUICK LINKS
+================================================================================
+Blooket Game: https://dashboard.blooket.com/set/691725bd5c2e794a1c52510b
+Desmos Calculator: https://www.desmos.com/calculator
+Materials Needed: WKS_Auction_to_Revenue_Analysis.pdf (English & Spanish versions)
+
+================================================================================
+PERIOD A SCHEDULE
+Status: Already completed candy auction and initial Desmos plotting
+================================================================================
+
+OPENING (10 minutes)
+--------------------
+1. Vocabulary Review via Blooket (8-10 min)
+   - Navigate to Blooket link above
+   - Game mode suggestions: Tower Defense or Gold Quest
+   - Key terms: Revenue, Demand, Fixed Cost, Variable Cost, Profit, Break-Even
+   - NOTE: Let students know these terms will be critical for today
+
+2. Quick Recap (2 min)
+   - "Last class, we ran our candy auction and plotted demand data"
+   - "Today, we're converting that to revenue and finding the optimal price"
+
+MAIN ACTIVITY (30-35 minutes)
+------------------------------
+Distribute: WKS_Auction_to_Revenue_Analysis.pdf (+ Spanish version)
+
+1. Part 1-2: Data Transfer (5 min)
+   - Students copy their auction data from last class
+   - Fill in Price and Quantity Demanded columns
+   - NOTE: Walk around to verify everyone has their data
+
+2. Part 3: Calculate Revenue (5-7 min)
+   - Guide calculation: Revenue = Price × Quantity
+   - Have students identify highest revenue point
+   - TECH: Project example calculation on board
+
+3. Part 4: Desmos Revenue Graph (8-10 min)
+   - Open new Desmos table (or modify existing)
+   - Enter Price (x₁) and Revenue (y₁) data
+   - Students should see parabolic shape forming
+   - NOTE: Help struggling students with Desmos interface
+
+4. Part 5: Quadratic Regression (7-8 min)
+   - Type in Desmos: y_1 ~ a*x_1^2 + b*x_1 + c
+   - Record equation as I(p) = ap² + bp + c
+   - Discuss why a is negative (parabola opens down)
+
+5. Part 6: Find Vertex (5-7 min)
+   - Click on maximum point in Desmos (graphical method)
+   - Calculate using x = -b/(2a) (algebraic method)
+   - Verify both methods give same answer
+   - Interpret as "optimal price for maximum revenue"
+
+CLOSING (5 minutes)
+-------------------
+1. Business Interpretation
+   - Complete Part 6, Step 9-10 if time allows
+   - Write 2-3 sentence business recommendation
+
+2. Preview Next Class
+   - "Next time: Apply this to real local businesses"
+   - "You'll choose between Golden Monkey, Mandee's, or Yas Chicken"
+   - Collect worksheets or have students keep for reference
+
+================================================================================
+PERIOD F SCHEDULE
+Status: Need to complete Desmos plotting from auction data
+================================================================================
+
+DECISION POINT
+--------------
+Do you have the original auction papers from last class?
+- YES → Follow Path A below
+- NO → Follow Path B below (re-run quick auction)
+
+OPENING (10 minutes)
+--------------------
+1. Vocabulary Review via Blooket (8-10 min)
+   - Same link as Period A
+   - Consider different game mode to keep it fresh
+   - Emphasize: Demand, Revenue, Profit, Variable Cost
+
+PATH A: If You Have Original Papers (35 minutes)
+-------------------------------------------------
+1. Reconstruct Data Table (5 min)
+   - Have students find their auction papers
+   - Create Price vs. Quantity Demanded table on board
+   - Students copy into notebooks
+
+2. Initial Desmos Plot (7-8 min)
+   - Open Desmos Calculator
+   - Create table: Price (x₁) vs. Quantity Demanded (y₁)
+   - Observe demand curve pattern
+   - NOTE: This completes what Period A did last class
+
+3. Distribute Worksheet & Continue (20-23 min)
+   - Hand out WKS_Auction_to_Revenue_Analysis.pdf
+   - Follow same sequence as Period A (Parts 3-6)
+   - Calculate revenue, plot revenue curve, find regression, identify vertex
+
+PATH B: If Papers Missing (35 minutes)
+---------------------------------------
+1. Quick Re-Run Auction (10 min)
+   - Announce: "We'll quickly recreate our data"
+   - Run 5 rounds with different prices
+   - Suggested prices: $0.50, $1.00, $1.50, $2.00, $2.50
+   - Record on board: Round, Price, Total Quantity Bought
+   - NOTE: Groups can buy multiple candies per round
+
+2. Immediate Desmos Entry (5 min)
+   - Students enter data directly into Desmos
+   - Create Price vs. Quantity scatterplot
+   - Should see downward trend (demand curve)
+
+3. Distribute Worksheet & Continue (20 min)
+   - Hand out WKS_Auction_to_Revenue_Analysis.pdf
+   - Move through Parts 3-6 as time allows
+   - Priority: Get through revenue calculation and graphing
+
+================================================================================
+TEACHING TIPS & TROUBLESHOOTING
+================================================================================
+
+Common Issues & Solutions
+-------------------------
+• Desmos won't do regression
+  - Make sure to use tilde (~) not equals
+  - Check that x₁ and y₁ match table column names
+  - Try: y1 ~ a*x1^2 + b*x1 + c
+
+• Students getting different vertex values
+  - Rounding differences are OK
+  - Emphasize both methods (graphical & algebraic) should be close
+  - Use this as teaching moment about precision
+
+• Negative revenue values
+  - Check multiplication: Price × Quantity
+  - Revenue should always be positive
+  - Common error: subtracting instead of multiplying
+
+• Spanish-speaking students need help
+  - Distribute Spanish version alongside English
+  - Pair with bilingual student if possible
+  - Key terms: Ingreso (Revenue), Demanda (Demand), Precio (Price)
+
+Key Questions to Ask Students
+------------------------------
+• "Why does revenue go down if price is too high OR too low?"
+• "What does the vertex represent in business terms?"
+• "How would this change if we cared about profit instead of revenue?"
+• "Could we use this same method for the school cafeteria?"
+
+================================================================================
+CHECKLIST FOR SUCCESS
+================================================================================
+
+Before Class
+------------
+□ Blooket game loaded and tested
+□ Copies of WKS_Auction_to_Revenue_Analysis.pdf (English)
+□ Copies of WKS_Auction_to_Revenue_Analysis_Spanish.pdf
+□ Desmos calculator bookmarked on class computers
+□ Example calculations ready for projection
+□ (Period F) Located auction papers OR prepared for quick re-run
+
+Materials per Student
+---------------------
+□ Worksheet (English or Spanish version)
+□ Calculator (phone or physical)
+□ Access to computer for Desmos
+□ Previous auction data (Period A) or blank paper (Period F)
+
+Learning Goals
+--------------
+□ Students can calculate revenue from price and quantity
+□ Students can create and interpret a revenue parabola
+□ Students can find optimal price using vertex
+□ Students can explain the business meaning of their findings
+
+--------------------------------------------------------------------------------
+NEXT CLASS PREVIEW: Students will select a local business (Golden Monkey,
+Mandee's, or Yas Chicken) and begin analyzing real pricing data using these
+same techniques!

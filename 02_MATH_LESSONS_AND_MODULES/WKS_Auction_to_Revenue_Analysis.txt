@@ -1,0 +1,171 @@
+FROM CANDY AUCTION TO MAXIMUM REVENUE
+Finding the Sweet Spot: Price Optimization Through Data
+
+Name: _________________ Period: _____ Date: _________
+
+================================================================================
+PART 1: REVIEWING OUR AUCTION DATA
+================================================================================
+
+Yesterday, we conducted a candy auction where each group could buy as many
+candies as they wanted at each price point. Let's organize what we discovered
+about DEMAND -- how many candies people wanted to buy at different prices.
+
+Step 1: Record Your Auction Results
+------------------------------------
+Fill in the table below with the data from our 5 auction rounds:
+
+| Round | Price ($) | Total Quantity Demanded |
+|       |           | (candies bought by all groups) |
+|-------|-----------|------------------------|
+| 1     |           |                        |
+| 2     |           |                        |
+| 3     |           |                        |
+| 4     |           |                        |
+| 5     |           |                        |
+
+Step 2: Quick Check on Demand
+------------------------------
+Question: Look at your Price vs. Quantity Demanded data. What pattern do you notice?
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+This pattern is called the LAW OF DEMAND in economics!
+
+================================================================================
+PART 2: FROM DEMAND TO REVENUE
+================================================================================
+
+Now comes the business insight: It's not just about how many we sell --
+it's about how much money we make!
+
+Step 3: Calculate Revenue
+--------------------------
+For each round, calculate the REVENUE (total money collected):
+
+        *** Revenue = Price × Quantity Demanded ***
+
+| Round | Price ($) | Quantity Demanded | Revenue ($) |
+|       | (copy)    | (copy)           | (calculate: Price × Quantity) |
+|-------|-----------|------------------|-------------|
+| 1     |           |                  |             |
+| 2     |           |                  |             |
+| 3     |           |                  |             |
+| 4     |           |                  |             |
+| 5     |           |                  |             |
+
+Step 4: The Million Dollar Question
+------------------------------------
+Looking at your revenue column, which price gave you the HIGHEST REVENUE?
+
+Price: $______    Revenue at that price: $______
+
+================================================================================
+PART 3: CREATING THE REVENUE GRAPH IN DESMOS
+================================================================================
+
+Step 5: Plot Price vs. Revenue
+-------------------------------
+a) Open Desmos graphing calculator
+b) Create a new table with two columns:
+   - Column 1: Label it x₁ (this is Price)
+   - Column 2: Label it y₁ (this is Revenue)
+c) Enter your 5 data points from the Price and Revenue columns above
+d) You should see dots forming a curve!
+
+Sketch what you see:
+[Draw a coordinate grid with Price on x-axis and Revenue on y-axis]
+
+================================================================================
+PART 4: FINDING THE PERFECT PRICE WITH REGRESSION
+================================================================================
+
+Step 6: Fit a Quadratic (Parabola) to Your Data
+------------------------------------------------
+In Desmos, type this in a new line:
+
+        y₁ ~ ax₁² + bx₁ + c
+
+Desmos will automatically find the best-fitting parabola!
+Write the equation it gives you:
+
+Revenue = _____ · Price² + _____ · Price + _____
+
+Record the values Desmos calculated:
+• a = _______ (this should be negative -- why?)
+• b = _______
+• c = _______
+
+================================================================================
+PART 5: THE VERTEX -- YOUR OPTIMAL PRICE!
+================================================================================
+
+The highest point on your revenue parabola is called the VERTEX.
+This tells you the best price to charge!
+
+Step 7: Find the Vertex Graphically
+------------------------------------
+a) Click on the highest point of your parabola in Desmos
+b) Desmos will show you the coordinates: (Price, Revenue)
+
+Vertex from Graph:  Price = $_____  Maximum Revenue = $_____
+
+Step 8: Find the Vertex Using Algebra
+--------------------------------------
+For any parabola y = ax² + bx + c, the x-coordinate of the vertex is:
+
+        x = -b/(2a)
+
+Using your values of a and b from Step 6:
+
+Optimal Price = -b/(2a)
+              = -(______) / (2 × (______))
+              = -(______) / (______)
+              = $_______
+
+Check: Does this match what you found graphically?  □ Yes  □ No
+
+================================================================================
+PART 6: MAKING BUSINESS SENSE
+================================================================================
+
+Step 9: Interpret Your Results
+-------------------------------
+Complete these sentences based on your analysis:
+
+a) If we price the candy too low (like $_____), we sell a lot but don't make
+   much per candy, so our total revenue is _________________.
+
+b) If we price the candy too high (like $_____), we make a lot per candy but
+   _________________, so our total revenue is also low.
+
+c) The "sweet spot" price that maximizes our revenue is $_____,
+   which would give us a revenue of $_____.
+
+Step 10: Business Recommendation
+---------------------------------
+Write a 2-3 sentence recommendation to a candy store owner based on your analysis:
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+================================================================================
+EXTENSION QUESTION (if time allows)
+================================================================================
+
+Think About It: We found the price that maximizes REVENUE, but businesses care
+about PROFIT. What additional information would we need to find the price that
+maximizes profit instead?
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+--------------------------------------------------------------------------------
+Next Class: We'll apply these same techniques to help real local businesses
+find their optimal prices!

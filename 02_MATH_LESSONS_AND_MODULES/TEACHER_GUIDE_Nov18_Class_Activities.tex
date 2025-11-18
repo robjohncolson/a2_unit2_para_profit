@@ -1,0 +1,298 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{tcolorbox}
+\usepackage{fontawesome5}
+
+% Header setup
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Teacher Guide: November 18, 2024}}
+\rhead{Parabolas for Profit - Day 2/3}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% Custom commands
+\newcommand{\timing}[1]{\textcolor{red}{\faIcon{clock} #1}}
+\newcommand{\materials}[1]{\textcolor{blue}{\faIcon{clipboard-list} #1}}
+\newcommand{\tech}[1]{\textcolor{purple}{\faIcon{laptop} #1}}
+\newcommand{\note}[1]{\textcolor{orange}{\faIcon{exclamation-triangle} #1}}
+
+\title{\vspace{-2cm}\textbf{Teacher Activity Guide}\\
+\large Candy Auction to Revenue Analysis\\
+Period A \& Period F}
+\author{November 18, 2024}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+
+\begin{tcolorbox}[colback=yellow!10!white,colframe=yellow!50!black,title=Quick Links]
+\begin{itemize}[leftmargin=*]
+\item \textbf{Blooket Game}: \url{https://dashboard.blooket.com/set/691725bd5c2e794a1c52510b}
+\item \textbf{Desmos Calculator}: \url{https://www.desmos.com/calculator}
+\item \textbf{Materials Needed}: WKS\_Auction\_to\_Revenue\_Analysis.pdf (English \& Spanish versions)
+\end{itemize}
+\end{tcolorbox}
+
+\section*{\faIcon{users} Period A Schedule}
+\textit{Status: Already completed candy auction and initial Desmos plotting}
+
+\begin{tcolorbox}[colback=green!10!white,colframe=green!50!black]
+\subsection*{Opening \timing{10 minutes}}
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Vocabulary Review via Blooket} \timing{8-10 min}
+    \begin{itemize}
+    \item Navigate to: \url{https://dashboard.blooket.com/set/691725bd5c2e794a1c52510b}
+    \item Game mode suggestions: Tower Defense or Gold Quest (engaging for review)
+    \item Key terms to emphasize: Revenue, Demand, Fixed Cost, Variable Cost, Profit, Break-Even
+    \item \note{Let students know these terms will be critical for today's analysis}
+    \end{itemize}
+
+\item \textbf{Quick Recap} \timing{2 min}
+    \begin{itemize}
+    \item ``Last class, we ran our candy auction and plotted demand data''
+    \item ``Today, we're converting that to revenue and finding the optimal price''
+    \end{itemize}
+\end{enumerate}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=blue!10!white,colframe=blue!50!black]
+\subsection*{Main Activity \timing{30-35 minutes}}
+
+\textbf{Distribute:} WKS\_Auction\_to\_Revenue\_Analysis.pdf (+ Spanish version)
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Part 1-2: Data Transfer} \timing{5 min}
+    \begin{itemize}
+    \item Students copy their auction data from last class
+    \item Fill in Price and Quantity Demanded columns
+    \item \note{Walk around to verify everyone has their data}
+    \end{itemize}
+
+\item \textbf{Part 3: Calculate Revenue} \timing{5-7 min}
+    \begin{itemize}
+    \item Guide calculation: Revenue = Price $\times$ Quantity
+    \item Have students identify highest revenue point
+    \item \tech{Project example calculation on board}
+    \end{itemize}
+
+\item \textbf{Part 4: Desmos Revenue Graph} \timing{8-10 min}
+    \begin{itemize}
+    \item Open new Desmos table (or modify existing)
+    \item Enter Price ($x_1$) and Revenue ($y_1$) data
+    \item Students should see parabolic shape forming
+    \item \note{Help struggling students with Desmos interface}
+    \end{itemize}
+
+\item \textbf{Part 5: Quadratic Regression} \timing{7-8 min}
+    \begin{itemize}
+    \item Type in Desmos: \texttt{y\_1 \textasciitilde{} a*x\_1\^{}2 + b*x\_1 + c}
+    \item Record equation as $I(p) = ap^2 + bp + c$
+    \item Discuss why $a$ is negative (parabola opens down)
+    \end{itemize}
+
+\item \textbf{Part 6: Find Vertex} \timing{5-7 min}
+    \begin{itemize}
+    \item Click on maximum point in Desmos (graphical method)
+    \item Calculate using $x = -\frac{b}{2a}$ (algebraic method)
+    \item Verify both methods give same answer
+    \item Interpret as ``optimal price for maximum revenue''
+    \end{itemize}
+\end{enumerate}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=gray!10!white,colframe=gray!50!black]
+\subsection*{Closing \timing{5 minutes}}
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Business Interpretation}
+    \begin{itemize}
+    \item Complete Part 6, Step 9-10 if time allows
+    \item Write 2-3 sentence business recommendation
+    \end{itemize}
+
+\item \textbf{Preview Next Class}
+    \begin{itemize}
+    \item ``Next time: Apply this to real local businesses''
+    \item ``You'll choose between Golden Monkey, Mandee's, or Yas Chicken''
+    \item Collect worksheets or have students keep for reference
+    \end{itemize}
+\end{enumerate}
+\end{tcolorbox}
+
+\newpage
+
+\section*{\faIcon{users} Period F Schedule}
+\textit{Status: Need to complete Desmos plotting from auction data}
+
+\begin{tcolorbox}[colback=orange!10!white,colframe=orange!50!black,title=\faIcon{question-circle} Decision Point]
+\textbf{Do you have the original auction papers from last class?}
+\begin{itemize}
+\item \textcolor{green}{\textbf{YES}} $\rightarrow$ Follow Path A below
+\item \textcolor{red}{\textbf{NO}} $\rightarrow$ Follow Path B below (re-run quick auction)
+\end{itemize}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10!white,colframe=green!50!black]
+\subsection*{Opening \timing{10 minutes}}
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Vocabulary Review via Blooket} \timing{8-10 min}
+    \begin{itemize}
+    \item Same link as Period A
+    \item Consider different game mode to keep it fresh
+    \item Emphasize: Demand, Revenue, Profit, Variable Cost
+    \end{itemize}
+\end{enumerate}
+\end{tcolorbox}
+
+\subsection*{PATH A: If You Have Original Papers \timing{35 minutes}}
+
+\begin{tcolorbox}[colback=blue!10!white,colframe=blue!50!black]
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Reconstruct Data Table} \timing{5 min}
+    \begin{itemize}
+    \item Have students find their auction papers
+    \item Create Price vs. Quantity Demanded table on board
+    \item Students copy into notebooks
+    \end{itemize}
+
+\item \textbf{Initial Desmos Plot} \timing{7-8 min}
+    \begin{itemize}
+    \item Open Desmos Calculator
+    \item Create table: Price ($x_1$) vs. Quantity Demanded ($y_1$)
+    \item Observe demand curve pattern
+    \item \note{This completes what Period A did last class}
+    \end{itemize}
+
+\item \textbf{Distribute Worksheet \& Continue} \timing{20-23 min}
+    \begin{itemize}
+    \item Hand out WKS\_Auction\_to\_Revenue\_Analysis.pdf
+    \item Follow same sequence as Period A (Parts 3-6)
+    \item Calculate revenue, plot revenue curve, find regression, identify vertex
+    \end{itemize}
+\end{enumerate}
+\end{tcolorbox}
+
+\subsection*{PATH B: If Papers Missing \timing{35 minutes}}
+
+\begin{tcolorbox}[colback=red!10!white,colframe=red!50!black]
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Quick Re-Run Auction} \timing{10 min}
+    \begin{itemize}
+    \item Announce: ``We'll quickly recreate our data''
+    \item Run 5 rounds with different prices
+    \item Suggested prices: \$0.50, \$1.00, \$1.50, \$2.00, \$2.50
+    \item Record on board: Round, Price, Total Quantity Bought
+    \item \note{Groups can buy multiple candies per round}
+    \end{itemize}
+
+\item \textbf{Immediate Desmos Entry} \timing{5 min}
+    \begin{itemize}
+    \item Students enter data directly into Desmos
+    \item Create Price vs. Quantity scatterplot
+    \item Should see downward trend (demand curve)
+    \end{itemize}
+
+\item \textbf{Distribute Worksheet \& Continue} \timing{20 min}
+    \begin{itemize}
+    \item Hand out WKS\_Auction\_to\_Revenue\_Analysis.pdf
+    \item Move through Parts 3-6 as time allows
+    \item Priority: Get through revenue calculation and graphing
+    \end{itemize}
+\end{enumerate}
+\end{tcolorbox}
+
+\newpage
+
+\section*{\faIcon{lightbulb} Teaching Tips \& Troubleshooting}
+
+\begin{tcolorbox}[colback=yellow!10!white,colframe=yellow!50!black,title=Common Issues \& Solutions]
+\begin{itemize}[leftmargin=*]
+\item \textbf{Desmos won't do regression}
+    \begin{itemize}
+    \item Make sure to use tilde (\textasciitilde) not equals
+    \item Check that $x_1$ and $y_1$ match table column names
+    \item Try: \texttt{y1 \textasciitilde{} a*x1\^{}2 + b*x1 + c}
+    \end{itemize}
+
+\item \textbf{Students getting different vertex values}
+    \begin{itemize}
+    \item Rounding differences are OK
+    \item Emphasize both methods (graphical \& algebraic) should be close
+    \item Use this as teaching moment about precision
+    \end{itemize}
+
+\item \textbf{Negative revenue values}
+    \begin{itemize}
+    \item Check multiplication: Price $\times$ Quantity
+    \item Revenue should always be positive
+    \item Common error: subtracting instead of multiplying
+    \end{itemize}
+
+\item \textbf{Spanish-speaking students need help}
+    \begin{itemize}
+    \item Distribute Spanish version alongside English
+    \item Pair with bilingual student if possible
+    \item Key terms: Ingreso (Revenue), Demanda (Demand), Precio (Price)
+    \end{itemize}
+\end{itemize}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10!white,colframe=green!50!black,title=Key Questions to Ask Students]
+\begin{itemize}[leftmargin=*]
+\item ``Why does revenue go down if price is too high OR too low?''
+\item ``What does the vertex represent in business terms?''
+\item ``How would this change if we cared about profit instead of revenue?''
+\item ``Could we use this same method for the school cafeteria?''
+\end{itemize}
+\end{tcolorbox}
+
+\section*{\faIcon{clipboard-check} Checklist for Success}
+
+\subsection*{Before Class}
+\begin{itemize}
+\item[$\square$] Blooket game loaded and tested
+\item[$\square$] Copies of WKS\_Auction\_to\_Revenue\_Analysis.pdf (English)
+\item[$\square$] Copies of WKS\_Auction\_to\_Revenue\_Analysis\_Spanish.pdf
+\item[$\square$] Desmos calculator bookmarked on class computers
+\item[$\square$] Example calculations ready for projection
+\item[$\square$] (Period F) Located auction papers OR prepared for quick re-run
+\end{itemize}
+
+\subsection*{Materials per Student}
+\begin{itemize}
+\item[$\square$] Worksheet (English or Spanish version)
+\item[$\square$] Calculator (phone or physical)
+\item[$\square$] Access to computer for Desmos
+\item[$\square$] Previous auction data (Period A) or blank paper (Period F)
+\end{itemize}
+
+\subsection*{Learning Goals}
+\begin{itemize}
+\item[$\square$] Students can calculate revenue from price and quantity
+\item[$\square$] Students can create and interpret a revenue parabola
+\item[$\square$] Students can find optimal price using vertex
+\item[$\square$] Students can explain the business meaning of their findings
+\end{itemize}
+
+\vfill
+
+\begin{center}
+\rule{0.8\textwidth}{0.5pt}
+
+\textbf{Next Class Preview:} Students will select a local business (Golden Monkey, Mandee's, or Yas Chicken) and begin analyzing real pricing data using these same techniques!
+\end{center}
+
+\end{document}

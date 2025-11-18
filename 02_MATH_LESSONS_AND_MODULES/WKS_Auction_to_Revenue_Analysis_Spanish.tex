@@ -1,0 +1,259 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-noquoting]{babel}
+
+% Header setup
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Nombre: \underline{\hspace{3cm}} \quad Período: \underline{\hspace{1cm}}}
+\rhead{Fecha: \underline{\hspace{2.5cm}}}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% Custom commands
+\newcommand{\blank}[1]{\underline{\hspace{#1}}}
+
+\title{\vspace{-2cm}\textbf{De la Subasta de Dulces al Ingreso Máximo}\\
+\large Encontrando el Punto Óptimo: Optimización de Precios a Través de Datos}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+
+\section*{Parte 1: Revisando Nuestros Datos de la Subasta}
+
+Ayer, realizamos una subasta de dulces donde cada grupo podía comprar tantos dulces como quisiera a cada precio. Organicemos lo que descubrimos sobre la \textbf{demanda} -- cuántos dulces querían comprar las personas a diferentes precios.
+
+\subsection*{Paso 1: Registra los Resultados de Tu Subasta}
+
+Completa la tabla con los datos de nuestras 5 rondas de subasta:
+
+\begin{center}
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{|c|c|c|}
+\hline
+\rowcolor{gray!20}
+\textbf{Ronda} & \textbf{Precio (\$)} & \textbf{Cantidad Total Demandada} \\
+& & \textit{(dulces comprados por todos los grupos)} \\
+\hline
+1 & \blank{2cm} & \blank{3cm} \\
+\hline
+2 & \blank{2cm} & \blank{3cm} \\
+\hline
+3 & \blank{2cm} & \blank{3cm} \\
+\hline
+4 & \blank{2cm} & \blank{3cm} \\
+\hline
+5 & \blank{2cm} & \blank{3cm} \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Paso 2: Verificación Rápida de la Demanda}
+
+\textbf{Pregunta:} Observa tus datos de Precio vs. Cantidad Demandada. ¿Qué patrón notas?
+
+\vspace{1cm}
+\blank{12cm}
+
+\vspace{0.5cm}
+\blank{12cm}
+
+¡Este patrón se llama la \textbf{Ley de la Demanda} en economía!
+
+\section*{Parte 2: De la Demanda al Ingreso}
+
+Ahora viene la perspicacia empresarial: No se trata solo de cuánto vendemos -- ¡se trata de cuánto dinero ganamos!
+
+\subsection*{Paso 3: Calcula el Ingreso}
+
+Para cada ronda, calcula el \textbf{ingreso} (dinero total recaudado):
+
+\begin{center}
+\colorbox{yellow!30}{
+\textbf{Ingreso = Precio $\times$ Cantidad Demandada}
+}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{center}
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{gray!20}
+\textbf{Ronda} & \textbf{Precio (\$)} & \textbf{Cantidad Demandada} & \textbf{Ingreso (\$)} \\
+& \textit{(copiar de arriba)} & \textit{(copiar de arriba)} & \textit{(calcular: Precio $\times$ Cantidad)} \\
+\hline
+1 & \blank{2cm} & \blank{2cm} & \blank{3cm} \\
+\hline
+2 & \blank{2cm} & \blank{2cm} & \blank{3cm} \\
+\hline
+3 & \blank{2cm} & \blank{2cm} & \blank{3cm} \\
+\hline
+4 & \blank{2cm} & \blank{2cm} & \blank{3cm} \\
+\hline
+5 & \blank{2cm} & \blank{2cm} & \blank{3cm} \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Paso 4: La Pregunta del Millón}
+
+Mirando tu columna de ingresos, ¿qué precio te dio el \textbf{ingreso más alto}?
+
+Precio: \$\blank{2cm} \qquad Ingreso a ese precio: \$\blank{3cm}
+
+\section*{Parte 3: Creando la Gráfica de Ingresos en Desmos}
+
+\subsection*{Paso 5: Grafica Precio vs. Ingreso}
+
+\begin{enumerate}[label=\alph*)]
+\item Abre la calculadora gráfica Desmos
+\item Crea una tabla nueva con dos columnas:
+    \begin{itemize}
+    \item Columna 1: Etiquétala $x_1$ (este es el Precio)
+    \item Columna 2: Etiquétala $y_1$ (este es el Ingreso)
+    \end{itemize}
+\item Ingresa tus 5 puntos de datos de las columnas de Precio e Ingreso de arriba
+\item ¡Deberías ver puntos formando una curva!
+\end{enumerate}
+
+\textbf{Dibuja lo que ves:}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+% Grid
+\draw[gray!30, very thin] (0,0) grid (10,6);
+% Axes
+\draw[thick, ->] (-0.5,0) -- (10.5,0) node[right] {Precio (\$)};
+\draw[thick, ->] (0,-0.5) -- (0,6.5) node[above] {Ingreso (\$)};
+% Add axis labels
+\foreach \x in {0,2,4,6,8,10}
+    \node[below] at (\x,0) {\small \x};
+\foreach \y in {0,1,2,3,4,5,6}
+    \node[left] at (0,\y) {\small \y};
+\end{tikzpicture}
+\end{center}
+
+\section*{Parte 4: Encontrando el Precio Perfecto con Regresión}
+
+\subsection*{Paso 6: Ajusta una Cuadrática (Parábola) a Tus Datos}
+
+En Desmos, escribe esto en una línea nueva:
+\begin{center}
+\colorbox{blue!10}{\texttt{$y_1 \sim ax_1^2 + bx_1 + c$}}
+\end{center}
+
+¡Desmos encontrará automáticamente la parábola que mejor se ajuste! Escribe la ecuación que te da:
+
+\vspace{0.5cm}
+\begin{center}
+\fbox{
+$I(p) = \blank{2cm} p^2 + \blank{2cm} p + \blank{2cm}$
+}
+\end{center}
+
+Registra los valores que Desmos calculó:
+\begin{itemize}
+\item $a = $ \blank{3cm} (esto debe ser negativo porque nuestra parábola abre hacia abajo y tiene un máximo)
+\item $b = $ \blank{3cm}
+\item $c = $ \blank{3cm}
+\end{itemize}
+
+\section*{Parte 5: El Vértice -- ¡Tu Precio Óptimo!}
+
+El punto más alto en tu parábola de ingresos se llama el \textbf{vértice}. ¡Esto te dice el mejor precio para cobrar!
+
+\subsection*{Paso 7: Encuentra el Vértice Gráficamente}
+
+\begin{enumerate}[label=\alph*)]
+\item Haz clic en el punto más alto de tu parábola en Desmos
+\item Desmos te mostrará las coordenadas: (Precio, Ingreso)
+\end{enumerate}
+
+\textbf{Vértice de la Gráfica:} \quad Precio = \$\blank{2cm} \quad Ingreso Máximo = \$\blank{3cm}
+
+\subsection*{Paso 8: Encuentra el Vértice Usando Álgebra}
+
+Para cualquier parábola $y = ax^2 + bx + c$, la coordenada x del vértice es:
+
+\begin{center}
+\colorbox{yellow!30}{
+$x = -\dfrac{b}{2a}$
+}
+\end{center}
+
+Usando tus valores de $a$ y $b$ del Paso 6:
+
+\vspace{0.5cm}
+\begin{align*}
+\text{Precio Óptimo} &= -\dfrac{b}{2a}\\[0.5cm]
+&= -\dfrac{\blank{3cm}}{2 \times (\blank{3cm})}\\[0.5cm]
+&= -\dfrac{\blank{3cm}}{\blank{3cm}}\\[0.5cm]
+&= \$\blank{3cm}
+\end{align*}
+
+\textbf{Verifica:} ¿Coincide esto con lo que encontraste gráficamente? \quad Sí \quad No
+
+\section*{Parte 6: Dando Sentido Empresarial}
+
+\subsection*{Paso 9: Interpreta Tus Resultados}
+
+Completa estas oraciones basándote en tu análisis:
+
+\begin{enumerate}[label=\alph*)]
+\item Si ponemos el precio del dulce muy bajo (como \$\blank{1.5cm}), vendemos mucho pero no ganamos mucho por dulce,
+así que nuestro ingreso total es \blank{5cm}.
+
+\item Si ponemos el precio del dulce muy alto (como \$\blank{1.5cm}), ganamos mucho por dulce pero \blank{5cm},
+así que nuestro ingreso también es bajo.
+
+\item El precio ``punto óptimo'' que maximiza nuestro ingreso es \$\blank{1.5cm},
+lo que nos daría un ingreso de \$\blank{2cm}.
+\end{enumerate}
+
+\subsection*{Paso 10: Recomendación Empresarial}
+
+Escribe una recomendación de 2-3 oraciones para el dueño de una tienda de dulces basándote en tu análisis:
+
+\vspace{1cm}
+\hrule
+\vspace{1cm}
+\hrule
+\vspace{1cm}
+\hrule
+\vspace{1cm}
+\hrule
+
+\section*{Pregunta de Extensión (si hay tiempo)}
+
+\textbf{Piénsalo:} Encontramos el precio que maximiza el \textit{ingreso}, pero a las empresas les importa la \textit{ganancia}.
+¿Qué información adicional necesitaríamos para encontrar el precio que maximiza la ganancia en lugar del ingreso?
+
+\vspace{1cm}
+\blank{12cm}
+
+\vspace{0.5cm}
+\blank{12cm}
+
+\vspace{2cm}
+
+\begin{center}
+\rule{0.8\textwidth}{0.5pt}
+
+\textit{Próxima Clase: ¡Aplicaremos estas mismas técnicas para ayudar a negocios locales reales (Golden Monkey, Mandee's y Yas Chicken) a encontrar sus precios óptimos!}
+\end{center}
+
+\end{document}
